@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import openpyxl
 import time
 
-#refernce https://github.com/boolalpha/GPTLeetCode/blob/master/src/backend/CodeAccuracy/main.py
 def get_leetcode_problems(leetcode_handler):
     # 1. Get all the problems from leetcode
     # get all the urls of the problem pages
